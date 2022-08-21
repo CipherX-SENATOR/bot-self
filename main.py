@@ -40,7 +40,7 @@ proxy = {
 	"username": "",
 	"password": ""
  }
-app = Client('ER-STR',config_file="config.ini",proxy=proxy) 
+app = Client('ER-STR',config_file="config.ini") 
 print('----------------------------------------')
 print('\033[37m======>.. \033[32m[  ER-STR  ]\033[37m ..<=======')
 print('----------------------------------------')
